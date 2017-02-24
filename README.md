@@ -14,12 +14,20 @@ Attention to detail / design sense
 Assignment
 
 Implement a page that renders Airbnb search results according to the attached mockup and spec. The requirements are below. Implement unspecified UI interactions as you see fit.  Think about what constitutes a minimum viable product in terms of functionality and start there.
+
 Render a list of search results using JSONP from http://assets.airbnb.com/frontend/search_results.js The JSONP callback is search_results.
+
 The form should submit via GET to http://www.airbnb.com/search, using the parameter names: location, checkin, checkout, guests
+
 The form should pass these validations:
 Location cannot be blank.
+
 Cannot submit a checkin without checkout.
+
 All image assets are provided or given as URLs in the JSON; the rest should be styled only via CSS.
+
 The search result should link to http://www.airbnb.com/rooms/<listing_id>.
+
 Add a date picker for dates.
+
 Guest dropdown should have options 1-16.
